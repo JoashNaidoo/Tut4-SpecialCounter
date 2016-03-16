@@ -8,7 +8,7 @@ class specialcount
 {
 public:
 
-	specialcount(int start, int finish, int step, int value);
+	specialcount(int start, int end, int step, int current);
 
 	int getVal();
 
@@ -29,6 +29,8 @@ private:
 	int end;
 	int stepInc;
 	int stepDec;
+	int current;
+	int step;
 
 
 }
